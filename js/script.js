@@ -12,7 +12,7 @@ L.tileLayer('https://api.maptiler.com/maps/darkmatter/{z}/{x}/{y}.png?key=hMJiBN
   crossOrigin: true
 }).addTo(map);
 
-var infoText = L.control({position: 'topleft'});
+var infoText = L.control({position: 'topright'});
 
 infoText.onAdd = function (map) {
 	var div = L.DomUtil.create('div', 'infoText');
