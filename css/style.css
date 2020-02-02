@@ -7,29 +7,15 @@
 }
 
 .labelCSS {
-    color: #f7f2f2;
-    background: rgba(36, 35, 35, 0.8);
-	opacity: 1;
-	font: Verdana;
+    color: #050505;
+    background: rgba(248, 247, 247, 1);
+	font: 12px Verdana;
 }
 .leaflet-tooltip-left.labelCSS::before {
     border-left-color: transparent;
 }
 .leaflet-tooltip-right.labelCSS::before {
 	border-right-color: transparent;
-}
-
-.infoText {
-	padding: 6px 8px;
-	font: 14px Verdana;
-	background: white;
-	background: rgba(255,255,255,0.8);
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
-	border-radius: 5px;
-}
-.infoText h4 {
-	margin: 0 0 5px;
-	color: rgb(206, 204, 204);
 }
 
 .audPlayer {
@@ -45,13 +31,7 @@
 	color: rgb(206, 204, 204);
 }
 
-.tooltipCSS {
-	color: rgba(36, 35, 35, 0.8);
-	background:#f7f2f2;
-	font: 14px Verdana;
-}
-
-.layerControl {
+.busText {
 	padding: 6px 8px;
 	font: 14px Verdana;
 	background: white;
@@ -59,7 +39,17 @@
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 	border-radius: 5px;
 }
-.layerControl h4 {
+.busText h4 {
 	margin: 0 0 5px;
 	color: rgb(206, 204, 204);
+}
+
+.tooltipCSS {
+	color: rgba(36, 35, 35, 0.8);
+	background:#f7f2f2;
+	font: 14px Verdana;
+}
+
+.leaflet-heatmap-layer {
+	opacity: 0.5
 }
